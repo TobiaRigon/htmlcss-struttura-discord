@@ -19,13 +19,36 @@
    
 }
 
-#nav_container{
-    
-    width:80% ;
-    /* devug */
+.nav_container{
+    display: flex;
+    align-items: center;
+    width:20% ;
+    /* debug */
     height: 30px;
     background-color: rgb(255, 196, 0);
     border: 1px dotted rgb(5, 5, 5);
+}
+
+#nav{
+    width:40% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#nav_section .nav_container:last-child{
+ flex-direction: row-reverse;
+}
+
+ul{
+    height: 100%;
+    display: flex;
+    justify-content:space-between;  
+    list-style-type: none;
+}
+
+li{
+margin:auto 10px;
 }
 
 #download_section{
