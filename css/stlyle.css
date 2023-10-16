@@ -25,6 +25,7 @@
     /* devug */
     height: 30px;
     background-color: rgb(255, 196, 0);
+    border: 1px dotted rgb(5, 5, 5);
 }
 
 #download_section{
@@ -39,9 +40,10 @@
 
 #download_container {
     width:65% ;
-    /* devug */
+    /* debug */
     height: 80%;
     background-color: rgb(255, 141, 244);
+    border: 1px dotted rgb(5, 5, 5);
 }
 
 /* main */
@@ -62,17 +64,18 @@ background-color: rgb(191, 191, 191);
 
 main section:last-child div{
     width:80% ;
-    /* devug */
+    /* debug */
     height: 90%;
     background-color: rgb(24, 160, 0);
+    border: 1px dotted rgb(5, 5, 5);
 }
-
 
 .img_container{ 
     width: 45%;
  /* debug */
  height: 90%;
  background-color: rgb(40, 145, 244);
+ border: 1px dotted rgb(5, 5, 5);
 }
 
 .info_container{
@@ -80,12 +83,52 @@ main section:last-child div{
  /* debug */
  height: 90%;
  background-color: rgb(255, 198, 218);
+ border: 1px dotted rgb(5, 5, 5);
 }
 
 /* footer */
 footer section{
+    display: flex;
+    justify-content: center;
      /* debug */
     height: 100px;
     background-color: rgb(35, 34, 39);
     border-bottom: 2px solid wheat;
+}
+
+footer section:first-child{
+    /* debug */
+   height: 400px;
+}
+
+footer section:last-child{
+    align-items:flex-end;
+    /* debug */
+  
+}
+
+#contacts{
+    margin-top: 5px;
+    width:calc(80% / 3);
+    /* debug */
+    height: 90%;
+    background-color: rgb(253, 175, 175);
+    border: 1px dotted rgb(5, 5, 5);
+}
+
+.search{
+    margin-top: 5px;
+    width:calc(80% / 6);
+    /* debug */
+    height: 90%;
+    background-color: rgb(35, 230, 201);
+    border: 1px dotted white;
+}
+
+#sing_in{
+    width: 80%;
+     /* debug */
+     height: 80%;
+     background-color: rgb(253, 175, 175);
+     border: 1px dotted rgb(5, 5, 5);
 }
