@@ -1,4 +1,42 @@
 /* general */
 *{
     font-family: 'Whitney', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/* header */
+
+#nav_section{
+    /* debug */
+    background-color: aquamarine;
+    height: 50px;
+}
+
+#download_section{
+     /* debug */
+     background-color: rgb(11, 29, 165);
+     height: 400px;
+}
+
+/* main */
+main section{
+      /* debug */
+      height: 450px;
+}
+
+
+/* gray BG section */
+main section:nth-child(even){
+    /* debug */
+background-color: rgb(191, 191, 191);
+} 
+
+/* footer */
+footer section{
+     /* debug */
+    height: 100px;
+    background-color: rgb(35, 34, 39);
+    border-bottom: 2px solid wheat;
 }
